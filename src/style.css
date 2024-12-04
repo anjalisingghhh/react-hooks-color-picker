@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0;
+  }
+  
+  * {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  #app {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .color-picker button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .color-picker button:hover {
+    background-color: #ddd;
+  }
+  
